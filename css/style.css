@@ -1,0 +1,105 @@
+/* ROOT COLORS */
+
+:root {
+  --main: #01637f;
+  --secondary: #0dc1b6;
+  --tint: #ff637a;
+}
+
+/* GLOBAL */
+
+* {
+  font-family: "Spline Sans", sans-serif;
+  color: var(--main);
+}
+
+.navbar {
+  background-color: var(--secondary) !important;
+}
+
+.bg-jumbo {
+  background-color: var(--main) !important;
+}
+
+.btn-success {
+  background-color: var(--main);
+  border: 1px solid var(--main);
+}
+
+.btn-success:hover {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.btn-success:focus {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.btn-success:active {
+  background-color: var(--secondary) !important;
+  border: 1px solid var(--secondary) !important;
+}
+
+.btn-success:focus {
+  border: none !important;
+}
+
+.text-success {
+  color: var(--main) !important;
+}
+
+/* TEXT */
+
+#logotxt {
+  font-size: 1.5rem;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.2rem;
+}
+
+#jumbotxt {
+  font-size: 5rem;
+  font-family: "Cinzel", serif;
+  color: var(--tint) !important;
+}
+
+#jumbop {
+  font-size: 1.2rem;
+  font-family: "Cinzel", serif;
+  color: var(--secondary) !important;
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-sizer {
+  height: 300px;
+  width: auto;
+}
+
+.text-primary {
+  color: red !important;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  #logotxt {
+    display: none !important;
+  }
+}
+
+#email2 {
+  width: 450px;
+}
