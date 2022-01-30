@@ -82,6 +82,13 @@ body {
   color: var(--main);
 }
 
+.logoimg {
+  height: 40px;
+  margin: 0 !important;
+  padding: auto !important;
+  box-sizing: border-box;
+}
+
 #jumbotxt {
   font-size: 5rem;
   font-family: "Cinzel", serif;
