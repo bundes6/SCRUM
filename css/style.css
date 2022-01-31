@@ -83,7 +83,7 @@ body {
 }
 
 .logoimg {
-  height: 40px;
+  height: 57px;
   margin: 0 !important;
   padding: auto !important;
   box-sizing: border-box;
@@ -91,14 +91,17 @@ body {
 
 #jumbotxt {
   font-size: 5rem;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel Decorative", cursive;
   color: var(--tint) !important;
+  padding-top: 20px;
+  text-shadow: 1px 3px var(--secondary);
 }
 
 #jumbop {
   font-size: 1.2rem;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", cursive;
   color: var(--secondary) !important;
+  /* text-shadow: 1px 1px var(--secondary); */
 }
 
 a {
@@ -126,6 +129,11 @@ a:hover {
   width: auto;
 }
 
+.img-sizer1 {
+  height: 200px !important;
+  padding-top: 20px;
+}
+
 .footicon {
   transition: ease-out 1s;
 }
@@ -142,10 +150,43 @@ a:hover {
   }
 }
 
+@media (max-width: 576px) {
+  #foottext {
+    border: none !important;
+  }
+}
+
 .cardmainpage {
   background-color: rgba(245, 245, 245, 0);
 }
 .card-headermainpage,
 .card-footerpage {
   opacity: 1;
+}
+
+.nav-link {
+  color: var(--green) !important;
+}
+
+.activenavlink {
+  opacity: 1 !important;
+}
+
+#jumbomain {
+  border-bottom: 5px var(--green) solid;
+  padding-top: 30px;
+}
+
+/* .nav-item .active {
+  color: var(--tint) !important;
+} */
+
+#foottext {
+  border-left: var(--secondary) 1px solid !important;
+  border-right: var(--secondary) 1px solid !important;
+}
+
+hr {
+  background-color: var(--secondary) !important;
+  border: 1px solid !important;
 }
