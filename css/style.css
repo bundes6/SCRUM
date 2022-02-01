@@ -23,10 +23,29 @@ body {
 
 .navbar {
   background-color: var(--secondary) !important;
+  border-bottom: 1px solid var(--green) !important;
 }
 
 .bg-jumbo {
-  background-color: var(--main) !important;
+  /* background-color: var(--main) !important; */
+  padding-top: 10px;
+  background: rgb(13, 193, 182) !important;
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(13, 193, 182, 1) 0%,
+    rgba(1, 99, 127, 1) 100%
+  ) !important;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(13, 193, 182, 1) 0%,
+    rgba(1, 99, 127, 1) 100%
+  ) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 193, 182, 1) 0%,
+    rgba(1, 99, 127, 1) 100%
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0dc1b6",endColorstr="#01637f",GradientType=1) !important;
 }
 
 .btn-success {
@@ -82,6 +101,12 @@ body {
   color: var(--main);
 }
 
+#hakotxt {
+  font-family: "Cinzel", serif;
+  color: --main;
+  font-weight: 500;
+}
+
 .logoimg {
   height: 57px;
   margin: 0 !important;
@@ -94,7 +119,7 @@ body {
   font-family: "Cinzel Decorative", cursive;
   color: var(--tint) !important;
   padding-top: 20px;
-  text-shadow: 1px 3px var(--secondary);
+  text-shadow: 1px 3px var(--main);
 }
 
 #jumbop {
@@ -142,11 +167,16 @@ a:hover {
   color: var(--secondary) !important;
 }
 
+#footnav22 {
+  margin-top: 10px;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
-  #logotxt {
-    display: none !important;
+  #footnav22 {
+    /* /* display: flex !important; */
+    display: inline-block !important;
   }
 }
 
@@ -189,4 +219,18 @@ a:hover {
 hr {
   background-color: var(--secondary) !important;
   border: 1px solid !important;
+}
+
+.reviewname {
+  margin-bottom: 80px;
+}
+
+/* SHOP */
+
+#shophighlight {
+  padding: 20px;
+}
+
+.img-sizer2 {
+  max-height: 400px;
 }
