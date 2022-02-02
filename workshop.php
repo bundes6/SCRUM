@@ -37,7 +37,7 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"
+    <a class="navbar-brand" href="index.php"
       >
       <img src="img/logo.png " class="logoimg my-0">
       <!-- <i class="fas fa-kiwi-bird mr-3"></i>  -->
@@ -58,10 +58,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="index.html">Home </a>
+            <a class="nav-link text-secondary" href="index.php">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="webshop.html">Webshop</a>
+            <a class="nav-link text-secondary" href="webshop.php">Webshop</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#"

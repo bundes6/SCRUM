@@ -35,11 +35,10 @@
   <body>
     <!-- Navbar Component -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="index.html"
+      <a class="navbar-brand" href="index.php"
         >
         <img src="img/logo.png " class="logoimg my-0">
-        <!-- <i class="fas fa-kiwi-bird mr-3"></i>  -->
-        <!-- <span id="logotxt">Hako</span></a> -->
+        
       </a>
       <button
         class="navbar-toggler"
@@ -61,10 +60,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="webshop.html">Webshop</a>
+            <a class="nav-link text-secondary" href="webshop.php">Webshop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary" href="workshop.html">Workshop</a>
+            <a class="nav-link text-secondary" href="workshop.php">Workshop</a>
           </li>
         </ul>
       </div>
@@ -95,7 +94,7 @@
           <div class="card border-0 text-center cardmainpage">
             <img src="img/logo/l1.png" class="card-img-top rounded quicknav"/>
             <div class="card-body">
-              <a href="webshop.html" class="btn btn-md btn-success my-3 text-white">Webshop</a>
+              <a href="webshop.php" class="btn btn-md btn-success my-3 text-white">Webshop</a>
             </div>
           </div>
         </div>
@@ -105,7 +104,7 @@
             <div class="card-body">
               
               
-              <a href="workshop.html" class="btn btn-md btn-success my-3 text-white">Workshop</a>
+              <a href="workshop.php" class="btn btn-md btn-success my-3 text-white">Workshop</a>
             </div>
           </div>
         </div>
@@ -136,13 +135,13 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="/img/10.jpg"
+                src="/img/1.jpg"
                 class="d-block w-100 rounded"
                 alt="shop1"
               />
               <div class="carousel-caption bg-success py-2 rounded">
                 <p class="font-weight-bold rounded text-center mb-0">
-                  <a href="webshop.html" id="carousellink">New in stock!<br>Shop now!</a>
+                  <a href="webshop.php" id="carousellink">New in stock!<br>Shop now!</a>
                 </p>
               </div>
             </div>
@@ -155,7 +154,7 @@
               />
               <div class="carousel-caption bg-success py-2 rounded">
                 <p class="font-weight-bold rounded text-center mb-0">
-                  <a href="webshop.html" id="carousellink">New in stock!<br>Shop now!</a>
+                  <a href="webshop.php" id="carousellink">New in stock!<br>Shop now!</a>
                 </p>
               </div>
             </div>
@@ -167,7 +166,7 @@
               />
               <div class="carousel-caption bg-success py-2 rounded">
                 <p class="font-weight-bold rounded text-center mb-0">
-                  <a href="webshop.html" id="carousellink">New in stock!<br>Shop now!</a>
+                  <a href="webshop.php" id="carousellink">New in stock!<br>Shop now!</a>
                 </p>
               </div>
             </div>
@@ -179,7 +178,7 @@
               />
               <div class="carousel-caption bg-success py-2 rounded">
                 <p class="font-weight-bold rounded text-center mb-0">
-                  <a href="webshop.html" id="carousellink">New in stock!<br>Shop now!</a>
+                  <a href="webshop.php" id="carousellink">New in stock!<br>Shop now!</a>
                 </p>
               </div>
             </div>
@@ -281,12 +280,12 @@
             </li>
             <li>
               <p>
-                <a href="webshop.html">Webshop</a>
+                <a href="webshop.php">Webshop</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="workshop.html">Workshops</a>
+                <a href="workshop.php">Workshops</a>
               </p>
             </li>
             <!-- Big screen icons -->
